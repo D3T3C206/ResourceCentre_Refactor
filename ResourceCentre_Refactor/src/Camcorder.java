@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Camcorder extends Item{
 	private int opticalZoom;
@@ -12,9 +13,13 @@ public class Camcorder extends Item{
 	}
 	
 	public String toString(){
-		String output = "";
+		String output = super.toString();
+		output += String.format("%-63s %-20d", output, opticalZoom);
 		// Write your codes here
+		
 		return output;
 	}
+	
+		
 }
 
