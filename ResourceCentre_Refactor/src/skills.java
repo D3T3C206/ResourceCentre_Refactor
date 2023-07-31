@@ -44,5 +44,6 @@ public class skills {
 	public void setJobApply(String jobApply) {
 		this.jobApply = jobApply;
 	}
+	// test
 	
 }
